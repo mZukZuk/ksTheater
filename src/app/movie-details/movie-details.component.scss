@@ -1,0 +1,29 @@
+.movie-details {
+  padding: 30px;
+  .back-btn {
+    float: right;
+  }
+  .loading {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-top: 30%;
+  }
+  .movie-data {
+    display: flex;
+    padding-bottom: 20px;
+    .right-panel {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      .item {
+        padding: 20px;
+        .title {
+          font-weight: bold;
+          padding-bottom: 10px;
+        }
+      }
+    }
+  }
+}
+

@@ -1,0 +1,33 @@
+.dashboard {
+  padding: 30px;
+  .table-container {
+    max-height: 45rem;
+    overflow: auto;
+    .mat-cell {
+      padding: 10px 20px 10px 10px;
+    }
+    .mat-column-title  {
+      margin-right: 10px !important;
+    }
+    .mat-column-synopsis {
+      flex: 0 0 20%;
+    }
+    .mat-column-image img {
+      width: 60px;
+      height: 60px;
+    }
+    @media only screen and (max-width: 600px) {
+      .mat-column-synopsis {
+        visibility: hidden;
+      }
+    }
+  }
+
+
+}
+.loading {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding-top: 50%;
+}
